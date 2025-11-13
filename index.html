@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AREM - Desarrollo de Aplicaciones e IA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#inicio" class="logo">
+                <img src="imagenes/logo-arem.png" alt="Logo de AREM">
+            </a>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#valores">Valores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <div class="inicio-contenido">
+                <div class="logo-contenedor">
+                    <img src="imagenes/logo-simbolo.png" alt="Símbolo de AREM">
+                </div>
+                <h1>AREM</h1>
+                <h2>Innovación y Desarrollo de Aplicaciones con Inteligencia Artificial</h2>
+                <p>
+                    Creamos soluciones de software a medida que impulsan el futuro. 
+                    Desde aplicaciones móviles hasta complejos sistemas con IA, transformamos ideas en realidad digital.
+                    Nuestro mercado abarca desde startups tecnológicas hasta empresas consolidadas que buscan innovar.
+                </p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <div class="container">
+                <h2>Nuestros Proyectos</h2>
+                <p class="texto-centrado">Aquí puedes ver una selección de nuestros trabajos. Cada proyecto es una colaboración única donde aplicamos tecnología de punta para resolver desafíos complejos y entregar resultados excepcionales para nuestros clientes.</p>
+                <div class="tarjetas-contenedor">
+                    <div class="proyecto hidden">
+                        <img src="imagenes/kinesia1.png" alt="Logo del Proyecto Alpha" class="proyecto-logo">
+                        <h3>Proyecto Kinesia</h3>
+                        <p>Descripción breve del proyecto, la tecnología utilizada y el impacto que tuvo.</p>
+                    </div>
+                    <div class="proyecto hidden">
+                        <img src="imagenes/Savia.png" alt="Logo del Proyecto Beta" class="proyecto-logo">
+                        <h3>Proyecto Savia</h3>
+                        <p>Descripción breve del proyecto, la tecnología utilizada y el impacto que tuvo.</p>
+                    </div>
+                    <div class="proyecto hidden">
+                        <img src="imagenes/VITIA.png" alt="Logo del Proyecto Gamma" class="proyecto-logo">
+                        <h3>Proyecto Vitia</h3>
+                        <p>Descripción breve del proyecto, la tecnología utilizada y el impacto que tuvo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="valores">
+            <div class="container">
+                <h2>Valores e Identidad</h2>
+                <p class="texto-centrado">Nuestra cultura se basa en pilares fundamentales que guían cada decisión y proyecto. Estos son los principios que definen nuestro trabajo.</p>
+                <div class="tarjetas-contenedor">
+                    <div class="valor hidden">
+                        <h3>Innovación</h3>
+                        <p>Buscamos siempre la vanguardia tecnológica para ofrecer soluciones que marquen la diferencia.</p>
+                    </div>
+                    <div class="valor hidden">
+                        <h3>Calidad</h3>
+                        <p>Nos comprometemos con la excelencia y el código robusto en cada proyecto que entregamos.</p>
+                    </div>
+                    <div class="valor hidden">
+                        <h3>Colaboración</h3>
+                        <p>Creemos en el poder del trabajo en equipo, tanto interno como con nuestros clientes.</p>
+                    </div>
+                    <div class="valor hidden">
+                        <h3>Integridad y Ética</h3>
+                        <p>Actuamos con transparencia y responsabilidad, especialmente en el desarrollo de soluciones de IA.</p>
+                    </div>
+                    <div class="valor hidden">
+                        <h3>Orientación al Cliente</h3>
+                        <p>El éxito de nuestros clientes es nuestro propio éxito. Sus objetivos son nuestra prioridad.</p>
+                    </div>
+                    <div class="valor hidden">
+                        <h3>Excelencia Técnica</h3>
+                        <p>Nuestro equipo se dedica a la maestría de las herramientas y arquitecturas más avanzadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <div class="layout-dos-columnas">
+                    <div class="columna-texto">
+                        <h2>Contacto</h2>
+                        <h3>¿Tienes una idea o un proyecto en mente?</h3>
+                        <p>Nos encantaría escucharla. Completa el formulario o envíanos un correo. Estamos listos para transformar tu visión en una realidad digital.</p>
+                        <p><strong>Email:</strong> contacto@arem.com</p>
+                        <p><strong>Ubicación:</strong> Guadalajara, Jalisco, México</p>
+                    </div>
+                    <div class="columna-contenido">
+                        <form>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                            
+                            <button type="submit">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AREM. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter / X</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
